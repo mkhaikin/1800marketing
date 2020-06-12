@@ -39,7 +39,7 @@ a.btn {
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
-	background-color: #90b95a;
+	background-color: #4478ca;
 	opacity: 1;
 }
 a.btn:hover{
@@ -135,15 +135,21 @@ header h2 {
 
 header h2 a {
 	transition: all .2s ease-in-out;
+	cursor: none; 
 }
 header h2 a:hover { transform: scale(1.1); }
 
+.fa-2x {
+    font-size: 2.1em;
+}
+
 header h2 i {
 	position: relative;
-	color: #730000;
+	color: darkred;
 	top: 8px;
-	left: 10px;
-	
+	left: 4px;
+	z-index: -1;
+	cursor: none; 
 }
 
 header nav {
@@ -258,7 +264,7 @@ header nav li {
 	}
 
 	.hero h1 {
-		font-size: 48px;
+		font-size: 60px;
 	}
 
 	.hero h3 {
