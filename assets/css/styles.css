@@ -97,7 +97,7 @@ section p {
 /*Header Styles*/
 .msg-bar {
 	background-color: #80a3db;
-	font-family: Arial, Helvetica, sans-serif;
+	
 }
 .msg-bar a {
 	opacity: 0;
@@ -107,7 +107,7 @@ section p {
 	background-color: #4478ca;
 	padding: 10px 0;
 	animation: 1s fadein 0.5s forwards;
-	
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -131,6 +131,7 @@ header {
 
 header h2 {
 	font-family: "Quicksand", sans-serif;
+	pointer-events: none; 
 }
 
 header h2 a {
@@ -140,16 +141,21 @@ header h2 a {
 header h2 a:hover { transform: scale(1.1); }
 
 .fa-2x {
-    font-size: 2.1em;
+    font-size: 1.5em;
 }
 
 header h2 i {
 	position: relative;
-	color: darkred;
-	top: 8px;
-	left: 4px;
+	color: #fff;
+	top: 6px;
+	left: -5px;
 	z-index: -1;
-	cursor: none; 
+	
+	-webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(130deg);
 }
 
 header nav {
@@ -196,6 +202,7 @@ header nav li {
 	text-align: center;
 	min-height: 100vh;
 	color: #fff;
+	
 }
 
 .hero .background-image {
@@ -207,18 +214,20 @@ header nav li {
 	background-size: cover;
 	z-index: -1;
 	background-color: #80a3db;
+	background-image: url(../img/main1.jpg);
+
 }
 
 .background-image {
-/*	background-image: url(assets/img/main.png);*/
-	background: rgba(128,163,219,1);
+	
+	/* background: rgba(128,163,219,1);
 	background: -moz-linear-gradient(top, rgba(128,163,219,1) 0%, rgba(246,246,246,0.78) 90%, rgba(246,246,246,0.75) 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(128,163,219,1)), color-stop(90%, rgba(246,246,246,0.78)), color-stop(100%, rgba(246,246,246,0.75)));
 	background: -webkit-linear-gradient(top, rgba(128,163,219,1) 0%, rgba(246,246,246,0.78) 90%, rgba(246,246,246,0.75) 100%);
 	background: -o-linear-gradient(top, rgba(128,163,219,1) 0%, rgba(246,246,246,0.78) 90%, rgba(246,246,246,0.75) 100%);
 	background: -ms-linear-gradient(top, rgba(128,163,219,1) 0%, rgba(246,246,246,0.78) 90%, rgba(246,246,246,0.75) 100%);
 	background: linear-gradient(to bottom, rgba(128,163,219,1) 0%, rgba(246,246,246,0.78) 90%, rgba(246,246,246,0.75) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80a3db', endColorstr='#f6f6f6', GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80a3db', endColorstr='#f6f6f6', GradientType=0 ); */
 }
 
 .hero h1 {
