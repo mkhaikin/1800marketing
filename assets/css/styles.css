@@ -151,10 +151,10 @@ header h2 i {
 	left: -5px;
 	z-index: -1;
 	
-	-webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
+	-webkit-transform: rotate(130deg);
+    -moz-transform: rotate(130deg);
+    -ms-transform: rotate(130deg);
+    -o-transform: rotate(130deg);
     transform: rotate(130deg);
 }
 
