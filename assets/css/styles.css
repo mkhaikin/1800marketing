@@ -101,6 +101,8 @@ section p {
 }
 .msg-bar a {
 	opacity: 0;
+	font-weight: bold;
+	text-transform: uppercase;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -150,7 +152,6 @@ header h2 i {
 	top: 6px;
 	left: -5px;
 	z-index: -1;
-	
 	-webkit-transform: rotate(130deg);
     -moz-transform: rotate(130deg);
     -ms-transform: rotate(130deg);
@@ -267,9 +268,9 @@ header nav li {
 
 }
 
-@media (min-width:800px) {
+@media (max-width:800px) {
 	.hero {
-		min-height: 600px;
+		min-height:600px;
 	}
 
 	.hero h1 {
