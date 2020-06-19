@@ -99,7 +99,7 @@ section p {
 	background-color: #80a3db;
 	
 }
-.msg-bar a {
+.msg-bar {
 	opacity: 0;
 	font-weight: bold;
 	text-transform: uppercase;
