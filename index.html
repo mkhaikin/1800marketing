@@ -90,22 +90,26 @@
     <h3 class="title">Contact Us</h3>
     <p>We would like to stay in touch with you, simply leave us your email and we will make sure to get back to you as soon as possible.</p>
     <hr>
-    <form>
-      <input type="email" placeholder="your@email.com">
-      <a href="#" class="btn">Send now</a>
+    <form action="functions.php" method="post">
+      <input type="email" name="email" placeholder="your@email.com">
+      <textarea name="message" placeholder="Type message here..." rows="4" cols="50"></textarea>
+      <input class="btn" type="submit" value="submit">
+      <!-- <a href="#" class="btn">Send now</a> -->
     </form>
 
     <span><a href="#">Take me to the top</a></span>
   </section>
 
   <footer>
-    <p>Images courtesy of <a href="http://unsplash.com/">unsplash</a>.</p>
-    <p>All rights reserved to 1800markeing.ca &copy;</p>
     <ul>
-      <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+      <!-- <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li> -->
       <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-      <li><a href="#"><i class="fa fa-snapchat-square fa-2x"></i></a></li>
+      <!-- <li><a href="#"><i class="fa fa-snapchat-square fa-2x"></i></a></li> -->
     </ul>
+    <p>All rights reserved to 1800markeing.ca &copy;</p>
+    <p>Images courtesy of <a href="http://unsplash.com/">unsplash</a>.</p>
+    
+    
   </footer>
 
 </body>
